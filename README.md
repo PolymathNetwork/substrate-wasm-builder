@@ -76,3 +76,8 @@ as well. For example if installing the rust nightly from 20.02.2020 using `rustu
 the wasm target needs to be installed as well `rustup target add wasm32-unknown-unknown --toolchain nightly-2020-02-20`.
 
 License: Apache-2.0
+
+# Polymath Changelog
+
+## 2.0.0-1
+	- Add `no_std` feature on WASM builds.
