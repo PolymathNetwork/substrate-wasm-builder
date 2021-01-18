@@ -346,6 +346,8 @@ fn project_enabled_features(
 		.cloned()
 		.collect::<Vec<_>>();
 
+ 	// Force `no_std` flag on wasm build.   
+	enabled_features.push("no_std".to_owned());
 	enabled_features.sort();
 	enabled_features
 }
